@@ -1,6 +1,7 @@
-module github.com/42wim/matterbridge
+module github.com/bvantagelimited/matterbridge
 
 require (
+	github.com/42wim/matterbridge v1.26.0
 	github.com/Baozisoftware/qrcode-terminal-go v0.0.0-20170407111555-c0650d8dff0f
 	github.com/Benau/tgsconverter v0.0.0-20210809170556-99f4a4f6337f
 	github.com/Philipp15b/go-steam v1.0.1-0.20200727090957-6ae9b3c0a560
@@ -58,6 +59,7 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
+	github.com/42wim/go-gitter v0.0.0-20170828205020-017310c2d557 // indirect
 	github.com/Benau/go_rlottie v0.0.0-20210807002906-98c1b2421989 // indirect
 	github.com/Jeffail/gabs v1.4.0 // indirect
 	github.com/apex/log v1.9.0 // indirect
@@ -67,6 +69,7 @@ require (
 	github.com/dyatlov/go-opengraph v0.0.0-20210112100619-dae8665a5b09 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.3 // indirect
+	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -95,6 +98,8 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monaco-io/request v1.0.5 // indirect
+	github.com/mreiferson/go-httpclient v0.0.0-20201222173833-5e475fde3a4d // indirect
+	github.com/mrexodia/wray v0.0.0-20160318003008-78a2c1f284ff // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
@@ -132,6 +137,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/olahol/melody.v1 v1.0.0-20170518105555-d52139073376 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
